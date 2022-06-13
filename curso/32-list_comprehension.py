@@ -30,3 +30,4 @@ print(l)
 
 a = [l if l in "aeiou" else '*' for l in "murcielago"]
 print(a)
+

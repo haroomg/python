@@ -2,7 +2,7 @@
 Tuplas:  es una estructura de datos propia que permite almacenar distintos tipos de datos
 son inmutables: no cambian su valor una vez se han creado
 """
-tupla = (1,2,3,4,5,6,7,8,9,10)
+tupla = (1,2,3,4,5,6,7,8,9,10,1)
 print(tupla)
 
 tupla2 = ('a','b','c','d','e','f','g','h','i','j')
@@ -36,4 +36,4 @@ print(c)
 print (tupla.count(1))
 
 # index - nos dice si un elemento esta en la tupla y nos devuelve su posicion
-print(tupla.index(1))
+print(tupla.index(1,1))

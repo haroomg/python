@@ -74,3 +74,6 @@ print(valores)
 
 valores = tuple(datosPersonales.values())
 print(valores)
+
+valores = dict(datosPersonales)
+print(valores)

@@ -7,7 +7,7 @@ while(bucleFin):
     ope = input("\nElija la operacion matematica deceada: \n 1- suma.\n 2- resta.\n 3- multiplicacion.\n 4- division.\nRespuesta: ")
         
     if ((ope == "1") or (ope == "suma" )or (ope == "Suma") or (ope == "SUMA") or( ope == "+")):
-        print ("{0} + {1} = 2}".format(num1, num2, (num1 + num2)))
+        print ("{0} + {1} = {2}".format(num1, num2, (num1 + num2)))
         
     elif(ope == "2" or ope == "resta" or ope == "Resta" or ope == "RESTA" or ope == "-"):
         print ("{0} - {1} = {2}".format(num1, num2, (num1 - num2)))
